@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
         ),
         body: const SingleChildScrollView(
           child: Expanded(
+            flex: 1,
             child: PromoCard(),
           ),
         ),
