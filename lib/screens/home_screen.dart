@@ -20,10 +20,7 @@ class HomeScreen extends StatelessWidget {
         ),
         body: const SingleChildScrollView(
           child: Expanded(
-            child: Padding(
-              padding: EdgeInsets.all(8.0),
-              child: PromoCard(),
-            ),
+            child: PromoCard(),
           ),
         ),
       ),
